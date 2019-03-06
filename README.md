@@ -1,5 +1,5 @@
-install-nix
-===========
+Install NixOS
+=============
 
 Start Wireless
 --------------
