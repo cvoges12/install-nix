@@ -1,6 +1,26 @@
 Install NixOS
 =============
 
+Features
+--------
+- Formats single disk with GPT
+- Encrypts partition with LUKs
+- Creates arbitrarily sized root LVM volume
+- Creates 8 GB swap LVM volume
+- Formats filesystems
+- Mounts root and boot partition
+- Turns swap on
+
+ToDo
+----
+- Haskell Translation
+- Replace `nix-generate-config` with `curl` and `mv`
+- Add `nixos-install` when operational
+- MBR alternative
+- Arbitrary swap size based on RAM size
+- Format arbitrary amount of disks
+- Offer parity LVM option
+
 Start Wireless
 --------------
 ```
