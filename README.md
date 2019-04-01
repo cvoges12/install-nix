@@ -33,3 +33,7 @@ iwlist wlp3s0 scan
 Diagnose Wireless
 -----------------
 `strace wpa_supplicant -i <WIFIINTERFACE> -c <(wpa_passphrase <SSID> <PASSPHRASE>) 2>&1 | less`
+
+Curl
+----
+install.sh - https://0x0.st/zP4M.sh
